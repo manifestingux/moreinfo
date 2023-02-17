@@ -14,52 +14,65 @@
           </head>
     <body>
 
+      <!-- TOP MENU -->
 <header>
-  <div>
+  <div class="battery">
       <img src="images/StatusBar.png">
   </div>
 
-  <div>
-    <ul class="menu">
+
+  <div class="topMenu row">
+    <ul class="menu row">
         <li><img src="images/homeicon.png"></li>
         <li><img src="images/logosm.png"></li>
         <li><img src="images/settingsicon.png"></li>
       </ul>
-  </div>
-  <div>
-      <ul class="navBar">
-        <li><h1>Home</h1></li>
+ 
+      <ul class="navBar row">
+        <li><img src="images/navback.png"> </li>
+        <li><h3>Twister</h3></li>
         <li><img src="images/diaryicon.png"></li>
       </ul>
+      <ul  class="toggleButtons row">
+        <li ><button class="active">More about Twister</button></li>
+        <li><button class="inactive">Care history</button></li>
+      </ul>
   </div>
+
 </header>
 
-<section class="toggleButtons">
-  <ul>
-    <li><button>More about Twister</button></li>
-    <li><button>Care history</button></li>
-  </ul>
-</section>
 
-<section class="aboutTwister">
+
+<!-- PAGE CONTENT -->
+<section id="bgcolor">
+<div class="aboutTwister">
   <img src="images/twisterlarge.png">
-  <h6><em>Haworthiopsis attenuata</em></h6>
+  <h6 class="plantLatin">Haworthiopsis attenuata</h6>
+  </div>
+  <div class="twisterFacts">
   <p1>Hawthornia is a small, succulent plant that belongs to the Asphodelaceae family. It is a hybrid between two similar plants, Haworthia and Gasteria, and is native to South Africa. The plant typically grows up to about 6 inches tall and 8 inches wide.
   </p1>
-</section>
+</div>
 
+<!-- YOU ARE HERE YOU ARE HERE YOU ARE HERE  -->
 <div>
   <button class="waterSched">
+    <div>
 <img src="images/watericon.png">
+</div>
+<div>
 <h4>Check watering schedule</h4>
 <p1>Water again today</p1>
+</div>
+<div>
 <img src="images/nexticon.png">
+</div>
   </button>
 </div>
 
-<section class="twisterCare">
+<div class="twisterCare">
 
-<div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+<div class="card text-bg-primary mb-3" >
 
     <div class="card-header"><h2>How to care for Twister:</h2></div>
     <div class="card-body">
@@ -83,7 +96,7 @@
     </div>
 
 </div>
-
+</section>
 
 <section class="tip">
 <img src="images/watericon.png">
@@ -93,7 +106,7 @@
 
 <section class="issues">
 
-  <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card text-bg-primary mb-3">
 
     <div class="card-header"><h2>Here are some typical issues you might face:</h2></div>
     <div class="card-body">

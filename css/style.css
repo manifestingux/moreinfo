@@ -1,9 +1,5 @@
 @media (max-width: 390px) {
 
-    body{
-        align-content: center;
-    }
-
 h1{
 font-family: 'Futura';
 font-size: 36px;
@@ -77,40 +73,97 @@ letter-spacing: 0em;
 text-align: left;
 }
 
+header{
+    position:fixed;
+    background-color: #ffffff;
+    top: 0%;
+}
+.battery{
+    width: 100%;
+    background-color: #ffffff;
+    top:0%;
+}
 ul{
     list-style: none;
 
 }
-
-/* .menu{
-  
-
+.topMenu{
+    flex-direction: row;
 }
-
+.menu{
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+}
 .navBar{
 
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    text-align: center;
 }
 
+.card{
+    background-color: #413B3E;   
+}
+/* MORE ABOUT & CARE HISTORY BUTTONS */
 .toggleButtons{
-
+    width: 100%;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.toggleButtons button{
+    width:160px;
+    height: 35px;
+    border-radius: 50px;
+}
+.active{
+    color:#ffffff;
+    background-color: #456955;
+    border: none;
+}
+.inactive{
+    color:#000000;
+    background-color: #D2E4DA;
+    border: none;
 }
 
 .aboutTwister{
+margin: auto;
+margin-top: 215.59px;
+text-align: center;
+}
+#bgcolor{
+    background-color: #F7F7F7;
+}
+.twisterFacts{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.plantLatin{
+    text-align: center;
+}
+/*.waterSched{
 
 }
 
-.waterSched{
-
-} */
-
-/* .twisterCare{
+.twisterCare{
 background-color: #413b3e;
 }
 .twisterCare h2 h4 p{
     color: #fff;
-} */
+}
 
-/* .tip{
+.tip{
 
 }
 
