@@ -14,7 +14,8 @@
           </head>
     <body>
 
-      <!-- TOP MENU -->
+
+      <!-- HEADER -->
 <header>
   <div class="battery">
       <img src="images/StatusBar.png">
@@ -33,6 +34,7 @@
         <li><h3>Twister</h3></li>
         <li><img src="images/diaryicon.png"></li>
       </ul>
+      <!-- MORE/CARE BUTTONS -->
       <ul  class="toggleButtons row">
         <li ><button class="active">More about Twister</button></li>
         <li><button class="inactive">Care history</button></li>
@@ -42,89 +44,92 @@
 </header>
 
 
-
-<!-- PAGE CONTENT -->
+<!-- ABOUT TWISTER -->
 <section id="bgcolor">
-<div class="aboutTwister">
-  <img src="images/twisterlarge.png">
-  <h6 class="plantLatin">Haworthiopsis attenuata</h6>
+  <div class="aboutTwister">
+    <img src="images/twisterlarge.png">
+    <h6 class="plantLatin">Haworthiopsis attenuata</h6>
   </div>
   <div class="twisterFacts">
-  <p1>Hawthornia is a small, succulent plant that belongs to the Asphodelaceae family. It is a hybrid between two similar plants, Haworthia and Gasteria, and is native to South Africa. The plant typically grows up to about 6 inches tall and 8 inches wide.
-  </p1>
-</div>
+      <p1>Hawthornia is a small, succulent plant that belongs to the Asphodelaceae family. It is a hybrid between two similar plants, Haworthia and Gasteria, and is native to South Africa. The plant typically grows up to about 6 inches tall and 8 inches wide.
+      </p1>
+  </div>
+  
 
-<!-- YOU ARE HERE YOU ARE HERE YOU ARE HERE  -->
-<div>
-  <button class="waterSched">
-    <div>
-<img src="images/watericon.png">
-</div>
-<div>
-<h4>Check watering schedule</h4>
-<p1>Water again today</p1>
-</div>
-<div>
-<img src="images/nexticon.png">
-</div>
-  </button>
-</div>
+  <!-- WATERING BUTTON  -->
+  <div>
+    <button class="waterButton">
+      <div>
+        <img src="images/watericon.png">
+      </div>
+      <div class="buttonText">
+        <h5 style="font-weight:600;" >Check watering schedule</h5>
+        <p1>Water again today</p1>
+      </div>
+      <div>
+        <img src="images/nexticon.png">
+      </div>
+    </button>
+  </div>
 
-<div class="twisterCare">
 
-<div class="card text-bg-primary mb-3" >
+  <!-- HOW TO CARE FOR TWISTER -->  
+  <div class="care" >
+      <div class="cardHeader">
+          <h3>How to care for Twister:</h3>
+      </div>
 
-    <div class="card-header"><h2>How to care for Twister:</h2></div>
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/sunicon.png">Sunlight</h4>
-      <p class="card-text">Twister will flourish when exposed to bright, indirect or direct light.</p>
+      <div class="cardBody">
+        <h4 style="font-weight:400;" class="cardTitle"><img src="images/sunicon.png">Sunlight</h4>
+        <p class="cardText">Twister will flourish when exposed to bright, indirect or direct light.</p>
+      </div>
+
+      <div class="cardBody">
+        <h4 class="cardTitle"><img src="images/watericon.png">Water</h4>
+        <p class="cardText">In bright light conditions, water Twister every 2-3 weeks, and wait for the soil to dry out between waterings. Be prepared to water more frequently if the light is intense, and less often if it is less bright.</p>
+      </div>
+
+      <div class="cardBody">
+        <h4 class="cardTitle"><img src="images/humidityicon.png">Humidity</h4>
+        <p class="cardText">There's no need to worry about it. Normal household humidity is acceptable, and Twister can endure low humidity.</p>
+      </div>
+
+      <div class="cardBody">
+        <h4 class="cardTitle"><img src="images/tempicon.png">Temperature</h4>
+        <p class="cardText">If the temperature in your home is between 65°F-75°F and you feel comfortable, then Twister will also feel comfortable.</p>
+      </div>
     </div>
+ 
 
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/watericon.png">Water</h4>
-      <p class="card-text">In bright light conditions, water Twister every 2-3 weeks, and wait for the soil to dry out between waterings. Be prepared to water more frequently if the light is intense, and less often if it is less bright.</p>
-    </div>
 
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/humidityicon.png">Humidity</h4>
-      <p class="card-text">There's no need to worry about it. Normal household humidity is acceptable, and Twister can endure low humidity.</p>
-    </div>
+  <!-- TIP (done) -->
+  <div class="tip">
+  <img src="images/watericon.png">
+  <p1 style="font-weight: bold;">Tip:</p1>
+  <p1>Twister needs about 500 ml of water</p1>
+  </div>
 
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/tempicon.png">Temperature</h4>
-      <p class="card-text">If the temperature in your home is between 65°F-75°F and you feel comfortable, then Twister will also feel comfortable.</p>
-    </div>
+  <!-- TYPICAL ISSUES -->
+    <div class="card">
 
-</div>
-</section>
+      <div class="cardHeader"><h2>Here are some typical issues you might face:</h2></div>
+      <div class="cardBody">
+        <h4 class="cardTitle"><img src="images/yellowleaficon.png">Over watering</h4>
+        <p class="cardText">If the leaves are turning yellow and the potting mix is wet, it might be experiencing root rot due to overwatering.</p>
+      </div>
 
-<section class="tip">
-<img src="images/watericon.png">
-<p1 style="font-weight: bold;">Tip:</p1>
-<p1>Twister needs about 500 ml of water</p1>
-</section>
+      <div class="cardBody">
+        <h4 class="cardTitle"><img src="images/watericon.png">Under watering</h4>
+        <p class="cardText">If you notice your plant's leaves are curling and the potting mix is dry, it might be thirsty and not getting enough water.</p>
+      </div>
 
-<section class="issues">
+      <div class="cardBody">
+        <h4 class="cardTitle"><img src="images/soilcompicon.png">Soil compaction</h4>
+        <p class="cardText">Brown or red tips on the leaves can be caused by either underwatering or soil compaction.</p>
+      </div>
 
-  <div class="card text-bg-primary mb-3">
+  </div>
 
-    <div class="card-header"><h2>Here are some typical issues you might face:</h2></div>
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/yellowleaficon.png">Over watering</h4>
-      <p class="card-text">If the leaves are turning yellow and the potting mix is wet, it might be experiencing root rot due to overwatering.</p>
-    </div>
-
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/watericon.png">Under watering</h4>
-      <p class="card-text">If you notice your plant's leaves are curling and the potting mix is dry, it might be thirsty and not getting enough water.</p>
-    </div>
-
-    <div class="card-body">
-      <h4 class="card-title"><img src="images/soilcompicon.png">Soil compaction</h4>
-      <p class="card-text">Brown or red tips on the leaves can be caused by either underwatering or soil compaction.</p>
-    </div>
-
-</div>
 </section>
 
 

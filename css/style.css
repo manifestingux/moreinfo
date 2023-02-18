@@ -1,5 +1,5 @@
 @media (max-width: 390px) {
-
+/* FONTS & STYLES */
 h1{
 font-family: 'Futura';
 font-size: 36px;
@@ -72,7 +72,12 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 }
+ul{
+    list-style: none;
+}
 
+
+/* HEADER */
 header{
     position:fixed;
     background-color: #ffffff;
@@ -82,10 +87,6 @@ header{
     width: 100%;
     background-color: #ffffff;
     top:0%;
-}
-ul{
-    list-style: none;
-
 }
 .topMenu{
     flex-direction: row;
@@ -99,7 +100,6 @@ ul{
     padding-right: 16px;
 }
 .navBar{
-
     width: 100%;
     background-color: #ffffff;
     display: inline-block;
@@ -109,10 +109,8 @@ ul{
     text-align: center;
 }
 
-.card{
-    background-color: #413B3E;   
-}
-/* MORE ABOUT & CARE HISTORY BUTTONS */
+
+/* MORE/CARE BUTTONS */
 .toggleButtons{
     width: 100%;
     background-color: #ffffff;
@@ -137,6 +135,8 @@ ul{
     border: none;
 }
 
+
+/* ABOUT TWISTER */
 .aboutTwister{
 margin: auto;
 margin-top: 215.59px;
@@ -145,31 +145,83 @@ text-align: center;
 #bgcolor{
     background-color: #F7F7F7;
 }
+.plantLatin{
+    text-align: center;
+}
 .twisterFacts{
     padding-left: 16px;
     padding-right: 16px;
 }
-.plantLatin{
-    text-align: center;
-}
-/*.waterSched{
 
+
+/* WATERING BUTTON */
+.waterButton{
+    border-radius: 50px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.buttonText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
 }
 
-.twisterCare{
-background-color: #413b3e;
+
+/* HOW TO CARE FOR TWISTER */
+.care{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 357px;
+    background: #413B3E;
+    border-radius: 16px;
+    color:#FFFFFF;
 }
-.twisterCare h2 h4 p{
-    color: #fff;
+.cardBody{
+margin-left: 46px;
+margin-right: 46px;
+}
+.cardTitle{
+display: inline-flex;
+align-items: center;
+gap: 16px;  
 }
 
+
+
+/* TIP */
 .tip{
-
+    border-radius: 16px;
+    width: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-color: #B9B9B9;
+    margin: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 2px;    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);    
 }
-
-.issues{
-
-} */
 
 
 
